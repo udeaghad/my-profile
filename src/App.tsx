@@ -4,7 +4,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className="text-red">
+    <div className="text-3xl font-bold underline text-red-950">
       Hello my profile
     </div>
   );

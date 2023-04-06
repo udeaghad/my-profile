@@ -26,7 +26,7 @@ const Header = () => {
   const onToggleTheme = () => dispatch(toggleTheme());
   
   return (
-    <header className="mb-20" data-testid='nav-bar'>
+    <header className="mb-5" data-testid='nav-bar'>
       <Disclosure as="nav" className="bg-indigo w-auto">
       {({ open }) => (
         <>

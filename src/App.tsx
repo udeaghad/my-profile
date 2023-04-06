@@ -1,7 +1,9 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { useAppSelector } from './hooks/storeHook';
 
 import Header from './components/Header';
+import ProfilePage from './pages/ProfilePage';
 
 import './App.css';
 
@@ -12,7 +14,10 @@ const App = () => {
   return (
     <div className={ darkTheme ? "dark" : ""}>
       <div className="dark:bg-gray-900 dark:text-white min-h-screen">
-       <Header />
+        <Header />
+        <Routes>
+          <Route path='/' element={ <ProfilePage /> } />
+        </Routes>
         
       </div>
     </div>

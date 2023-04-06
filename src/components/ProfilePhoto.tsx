@@ -3,7 +3,7 @@ const ProfilePhoto = () => {
     <div className="flex justify-center items-center">
       <div className="w-[40%] border-2 border-[#fea02a] rounded-full min-h-16 h-2/4">
         <img
-          className="rounded-full aspect-[6/2] object-cover"
+          className="rounded-full aspect-[4/5] object-cover"
           src="Dozie-profile-pix.jpg"
           alt="profile-pix"
         />

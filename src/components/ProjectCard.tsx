@@ -4,10 +4,10 @@ import { IProjectCard } from "../pages/Projects";
 const ProjectCard: FC<IProjectCard> = (props) => {
   const { name, description, stack, image, source_code, demo } = props;
   return (
-    <div className="mb-2 flex flex-col justify-center items-center gap-2 border-2 m-[10%] border-[#fea02a] p-[5%] rounded-md drop-shadow-md hover:-translate-y-4 duration-200 hover:animate-pulse">
+    <div className="mb-2 flex flex-col justify-center items-center gap-2 border-2 m-[10%] border-[#fea02a] p-[5%] rounded-md drop-shadow-md hover:-translate-y-4 duration-200">
       <h4 className="text-xl font-bold">{name}</h4>
 
-      <div>
+      <div className="hover:animate-pulse">
         <img src={image} alt={name} />
       </div>
 
@@ -24,10 +24,10 @@ const ProjectCard: FC<IProjectCard> = (props) => {
 
       <div className="flex justify-between w-[100%] mt-2">
         <a href={source_code} target="_blank" rel="noreferrer">
-          <button className="border-transparent bg-[#ff6dcd] py-3 px-5 rounded-full">Source Code</button>
+          <button className="border-transparent bg-[#ff6dcd] py-3 px-5 rounded-full text-white font-bold text-lg">Source Code</button>
         </a>
         <a href={demo} target="_blank" rel="noreferrer">
-          <button className="border-transparent bg-[#ff6dcd] py-3 px-10 rounded-full" >Demo</button>
+          <button className="border-transparent bg-[#ff6dcd] py-3 px-10 rounded-full text-white font-bold text-lg" >Demo</button>
         </a>
       </div>
       

@@ -2,6 +2,7 @@ import ProfilePhoto from "../components/ProfilePhoto";
 import AboutMe from "../components/AboutMe";
 import TechStack from "../components/TechStack";
 import SocialMedia from "../components/SocialMedia";
+import History from "../components/History";
 
 export interface IStack {
   name: string;
@@ -21,8 +22,13 @@ const ProfilePage = () => {
   ]
   return (
     <div>
-      <ProfilePhoto />
-      <AboutMe />
+      <div>
+        <ProfilePhoto />
+      </div>
+
+      <div>
+        <AboutMe />
+      </div>
 
       <div>
         <h2 className="text-xl font-bold text-center pt-5">My Stacks</h2>
@@ -35,10 +41,15 @@ const ProfilePage = () => {
           })}
         </div>
       </div>
+      
+      <div>
+        <History />
+      </div>
 
       <div>
         <SocialMedia />
       </div>
+
 
       
     </div>

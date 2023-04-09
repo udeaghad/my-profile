@@ -7,6 +7,7 @@ import ProfilePage from './pages/ProfilePage';
 import Footer from './components/Footer';
 
 import './App.css';
+import Projects from './pages/Projects';
 
 const App = () => {
 
@@ -14,10 +15,11 @@ const App = () => {
 
   return (
     <div className={ darkTheme ? "dark" : ""}>
-      <div className="dark:bg-gray-900 dark:text-white min-h-screen">
+      <div className="bg-[#e7edfb] dark:bg-gray-900 dark:text-white min-h-screen">
         <Header />
         <Routes>
           <Route path='/' element={ <ProfilePage /> } />
+          <Route path='/Projects' element={ <Projects /> } />
         </Routes>
         <Footer />
       </div>

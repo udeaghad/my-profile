@@ -4,6 +4,7 @@ import { useAppSelector } from './hooks/storeHook';
 
 import Header from './components/Header';
 import ProfilePage from './pages/ProfilePage';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -18,7 +19,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={ <ProfilePage /> } />
         </Routes>
-        
+        <Footer />
       </div>
     </div>
   );

@@ -4,12 +4,12 @@ import { IoMdMail } from 'react-icons/io';
 
 const SocialMedia = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5 flex justify-center items-center flex-col">
       <h2 className="text-center font-bold text-xl">
         Social Media
       </h2>
 
-      <div className='flex justify-between items-center px-12 mt-5'>
+      <div className='flex justify-between items-center px-12 mt-5 gap-5'>
         <a href='https://github.com/udeaghad' target='_blank' rel="noreferrer">
           <BsGithub className='text-2xl'/>
         </a>

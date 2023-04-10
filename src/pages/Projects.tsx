@@ -75,7 +75,7 @@ const Projects = () => {
     <div>
       <h1 className="text-3xl font-bold text-center">My Projects</h1>
 
-      <div>
+      <div className="md:grid md:grid-cols-2 lg:grid lg:grid-cols-3">
         {projects.map(project => {
           const { id, name, description, stack, image, source_code, demo } = project
           return (

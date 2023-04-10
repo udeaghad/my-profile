@@ -26,25 +26,29 @@ const ProfilePage = () => {
         <ProfilePhoto />
       </div>
 
-      <div>
+      <div className="m-10 p-5">
         <AboutMe />
       </div>
 
-      <div>
-        <h2 className="text-xl font-bold text-center pt-5">My Stacks</h2>
-        <div className="grid grid-cols-4 p-3 gap-2">
-          {stacks.map(stack => {
-            const {name, logo } = stack
-            return (
-              <TechStack key={name} name={name} logo={logo} />
-            )
-          })}
+      <div className="lg:grid lg:grid-cols-2 gap-2 m-3">
+
+        <div>
+          <h2 className="text-xl font-bold text-center pt-5">My Stacks</h2>
+          <div className="grid grid-cols-4 p-3 gap-2">
+            {stacks.map(stack => {
+              const {name, logo } = stack
+              return (
+                <TechStack key={name} name={name} logo={logo} />
+              )
+            })}
+          </div>
+        </div>
+      
+        <div className="lg:border-l-2 lg:border-l-gray-500">
+          <History />
         </div>
       </div>
-      
-      <div>
-        <History />
-      </div>
+
 
       <div>
         <SocialMedia />

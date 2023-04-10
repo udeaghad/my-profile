@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div className="mt-5 max-w-sm bg-white mx-auto rounded-lg border border-gray-200 shadow-md dark:bg-gray-700">
+    <div className="mt-5 p-5 bg-white mx-auto rounded-lg border border-gray-200 shadow-md dark:bg-gray-700">
       <div className="px-5 flex justify-center items-center flex-col">
         <h1 className="text-3xl font-bold text-center mb-5 p-5">About me</h1>
         <p className="mb-5 text-justify">

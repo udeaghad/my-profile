@@ -17,6 +17,7 @@ const Header = () => {
   const navigation = [
     { name: 'Profile', href: '/', current: false },
     { name: 'Projects', href: '/Projects', current: false },
+    { name: 'Crypto Blog', href: '/CryptoBlog', current: false },
   ]
   
   function classNames(...classes: string[]) {

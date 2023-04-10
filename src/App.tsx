@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 
 import './App.css';
 import Projects from './pages/Projects';
+import CryptoNews from './pages/CryptoNews';
 
 const App = () => {
 
@@ -20,7 +21,9 @@ const App = () => {
         <Routes>
           <Route path='/' element={ <ProfilePage /> } />
           <Route path='/Projects' element={ <Projects /> } />
+          <Route path='/CryptoBlog' element={ <CryptoNews /> } />
         </Routes>
+        
         <Footer />
       </div>
     </div>

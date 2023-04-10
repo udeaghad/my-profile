@@ -31,7 +31,7 @@ const currencySlice = createSlice({
   reducers: {},
   extraReducers(builder) {
     builder
-      .addCase(getCurrencies.pending, (state) => ({...state, isloading: true}))
+      .addCase(getCurrencies.pending, (state) => ({...state, isLoading: true}))
       .addCase(getCurrencies.fulfilled, (state, action: PayloadAction<any[]>) => (
         {...state, data: action.payload, isLoading: false}
       ))

@@ -18,7 +18,7 @@ const ProjectCard: FC<IProjectCard> = (props) => {
        
       <div className="flex gap-2 mt-2 flex-wrap justify-center items-center">
         {stack.map(item => (
-          <span className="border-transparent bg-[#fea02a] p-2 outline-inherit rounded-md">{item}</span>
+          <span className="border-transparent bg-[#fea02a] p-2 outline-inherit rounded-md" key={item}>{item}</span>
         ))}
       </div>
 

@@ -1,6 +1,6 @@
 const History = () => {
   return (
-    <div className="m-5">
+    <div className="m-5" data-testid='history'>
       <h2 className="text-center font-bold text-xl mb-2">Professional History</h2>
 
       <div className="flex mb-2 border-b">

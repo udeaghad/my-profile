@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+[![](https://img.shields.io/badge/Microverse-Dozie%20Udeagha-blueviolet)](https://github.com/udeaghad)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MY Profile
 
-## Available Scripts
+>This project is about my personal profile that displays some of my best projects, the details about me, my social media handles with which I can be reached for further discussion.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- React
+- Javascript
+- CSS
+- Tailwind CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Portfolio Link
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Click to see portfolio](https://dozie-udeagha-portfolio.netlify.app)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Prerequisites: 
+   - Signup/login to your github account and go to https://github.com/udeaghad/my-profile/.
+   
+Setup
+   - Clone the repository on github to your local terminal
+Install
+   - Ensure you have git installed on your terminal
+   - Run each of the following codes on your terminal
+      -  npm install
+      -  npm run build
+      -  npm start
+   -Ensure you have node.js installed.
+  
+Usage
+   - Open the index.html file with your browser to view the webpage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👤 Dozie Udeagha
 
-### `npm run eject`
+- GitHub: [@udeaghad](https://github.com/udeaghad)
+- Twitter: [@theodoz](https://twitter.com/theodoz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dozie-udeagha/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Contributions, issues, and feature requests are welcome!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Feel free to check the [issues page](https://github.com/udeaghad/my-profile/issues).
 
-## Learn More
+## Show your support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a [⭐️](https://github.com/udeaghad/my-profile/stargazers) if you like this project!

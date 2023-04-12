@@ -13,7 +13,7 @@ const ProjectCard: FC<IProjectCard> = (props) => {
 
       
 
-      <p className="text-justify">{description}</p>
+      <p className="text-justify" data-testid='description'>{description}</p>
 
        
       <div className="flex gap-2 mt-2 flex-wrap justify-center items-center">

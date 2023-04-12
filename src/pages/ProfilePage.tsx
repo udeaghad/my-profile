@@ -26,7 +26,7 @@ const ProfilePage = () => {
         <ProfilePhoto />
       </div>
 
-      <div className="m-10 p-5">
+      <div className="m-5 p-3 lg:m-12 lg:p-5 md:m-10 md:p-5">
         <AboutMe />
       </div>
 

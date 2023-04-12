@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <div className="mt-5 p-5 bg-white mx-auto rounded-lg border border-gray-200 shadow-md dark:bg-gray-700">
-      <div className="px-5 flex justify-center items-center flex-col">
+      <div className="px flex justify-center items-center flex-col">
         <h1 className="text-3xl font-bold text-center mb-5 p-5">About me</h1>
         <p className="mb-5 text-justify">
           My name is <span className="font-bold">Dozie Udeagha</span>. I am a Full Stack Developer with a background 

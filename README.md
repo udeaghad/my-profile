@@ -13,7 +13,7 @@
 
 ## Portfolio Link
 
-[Click to see portfolio](https://dozie-udeagha-portfolio.netlify.app)
+[Click to see profile](https://dozie-profile.netlify.app/)
 
 ## Getting Started
 

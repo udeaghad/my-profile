@@ -2,8 +2,8 @@ const AboutMe = () => {
   return (
     <div className="mt-5 p-5 bg-white mx-auto rounded-lg border border-gray-200 shadow-md dark:bg-gray-700">
       <div className="px-5 flex justify-center items-center flex-col">
-        <h1 className="text-3xl font-bold text-center mb-5 p-5" role="heading">About me</h1>
-        <p className="mb-5 text-justify" role="paragraph">
+        <h1 className="text-3xl font-bold text-center mb-5 p-5">About me</h1>
+        <p className="mb-5 text-justify">
           My name is <span className="font-bold">Dozie Udeagha</span>. I am a Full Stack Developer with a background 
           in banking and finance. I have a bachelor's degree in Project Management, 
           MBA in Finance, and more than 7 year experience in banking operations. 
@@ -14,7 +14,7 @@ const AboutMe = () => {
           ExpressJS.
         </p>
 
-        <p className="mb-5 text-justify" role="paragraph">
+        <p className="mb-5 text-justify">
           My project management and ITIL certifications have also taught me to follow a
           project from client description to deployment. I have worked on projects 
           with tight deadlines and minimal supervision and used project management tools, 
